@@ -1,0 +1,112 @@
+/**
+Set the margins of the page to 0, so the footer and the header
+can be of the full height and width !
+**/
+@page {
+    margin: .8cm;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+}
+
+/** Define the header rules **/
+header {
+    position: fixed;
+    width: 100%;
+    height: 3.3cm;
+
+    /** Extra personal styles **/
+    /*background-color: #03a9f4;*/
+    color: black;
+    text-align: left;
+}
+
+/** Define now the real margins of every page in the PDF **/
+body {
+    margin-top: 3.5cm;
+    margin-bottom: 1cm;
+    /*background-color: #0c5460;*/
+}
+
+/** Define the footer rules **/
+footer {
+    position: fixed;
+    bottom: .5cm;
+
+    /** Extra personal styles **/
+    /*background-color: #03a9f4;*/
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
+
+.page-break {
+    page-break-after: always;
+}
+
+hr {
+    border-bottom: 3px solid darkred;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+header table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+header td, header th {
+    /*border: 1px solid #dddddd;*/
+    text-align: center;
+}
+
+.header-brt {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.header-tj {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+}
+
+.document-title {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.table-transaksi {
+    border-collapse: collapse;
+    width: 100%;
+    padding-top: .2cm;
+}
+
+.table-transaksi td, .table-transaksi th {
+    border: 1px solid #dddddd;
+    /*text-align: left;*/
+    padding: 3px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.color-gray {
+    background-color: #e4e4e4;
+}

@@ -1,0 +1,74 @@
+{
+  "_from": "filepond-plugin-file-validate-type",
+  "_id": "filepond-plugin-file-validate-type@1.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-K1qD8mfahJoz2zRlWWvYoHuy4k/8tHggsoGbm/blpTp63OyahOdJBzMN3VK7USYn5OZ58uOFdMTMyi8ibFpW/Q==",
+  "_location": "/filepond-plugin-file-validate-type",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "filepond-plugin-file-validate-type",
+    "name": "filepond-plugin-file-validate-type",
+    "escapedName": "filepond-plugin-file-validate-type",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/filepond-plugin-file-validate-type/-/filepond-plugin-file-validate-type-1.2.4.tgz",
+  "_shasum": "ce7f5f469dbc7ce0da12fdef7b0f24e4c263c410",
+  "_spec": "filepond-plugin-file-validate-type",
+  "_where": "/home/kevin/Development/RayWhite",
+  "author": {
+    "name": "PQINA",
+    "url": "https://pqina.nl/"
+  },
+  "browser": "dist/filepond-plugin-file-validate-type.js",
+  "browserslist": [
+    "last 1 version and not Explorer 10",
+    "Explorer 11",
+    "iOS >= 9",
+    "Android >= 4.4"
+  ],
+  "bugs": {
+    "url": "https://github.com/pqina/filepond-plugin-file-validate-type/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "File Type Validation Plugin for FilePond",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "rollup": "^1.7.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-license": "^0.8.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-prettier": "^0.6.0",
+    "rollup-plugin-terser": "^4.0.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://pqina.nl/filepond/",
+  "license": "MIT",
+  "main": "dist/filepond-plugin-file-validate-type.js",
+  "module": "dist/filepond-plugin-file-validate-type.esm.js",
+  "name": "filepond-plugin-file-validate-type",
+  "peerDependencies": {
+    "filepond": ">=1.x <5.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqina/filepond-plugin-file-validate-type.git"
+  },
+  "scripts": {
+    "build": "npx rollup -c",
+    "start": "npx rollup -c -w"
+  },
+  "version": "1.2.4"
+}
